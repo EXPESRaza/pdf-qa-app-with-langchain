@@ -1,0 +1,141 @@
+[data-testid="stSidebar"] {
+    background-color: #f8f9fa;
+    padding: 1.25rem 1rem;
+    border-right: 1px solid #e9ecef;
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    padding-top: 0;
+}
+
+/* Main content styling */
+.main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styling */
+.stTitle {
+    color: #1a1a1a;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+/* Chat message styling */
+[data-testid="stChatMessage"] {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* User message styling */
+.user-message {
+    background-color: #f8f9fa;
+}
+
+/* Assistant message styling */
+.assistant-message {
+    background-color: #f0f7ff;
+}
+
+/* File uploader styling */
+[data-testid="stFileUploader"] {
+    border: 2px dashed #dee2e6;
+    border-radius: 10px;
+    padding: 1.25rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #0066cc;
+    color: white;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.stButton > button:hover {
+    background-color: #0052a3;
+}
+
+/* Input field styling */
+.stTextInput > div > div > input {
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    padding: 0.5rem;
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
+/* Source document styling */
+.source-document {
+    background-color: #f8f9fa;
+    border-left: 3px solid #0066cc;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 6px 6px 0;
+}
+
+/* Model selector styling */
+.stSelectbox {
+    margin-bottom: 1rem;
+}
+
+/* Toggle switch styling */
+.stCheckbox {
+    margin-bottom: 1rem;
+}
+
+/* Error message styling */
+.stAlert {
+    border-radius: 6px;
+    margin: 1rem 0;
+}
+
+/* Loading spinner styling */
+.stSpinner > div {
+    border-color: #0066cc;
+}
+
+/* Sidebar section spacing */
+[data-testid="stSidebar"] hr {
+    margin: 0.75rem 0;
+}
+
+/* Sidebar headings */
+[data-testid="stSidebar"] h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+
+[data-testid="stSidebar"] h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Help text styling */
+.stFileUploader > div:last-child {
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+/* Slider styling */
+[data-testid="stSlider"] {
+    padding: 1rem 0;
+}
+
+.stSlider > div > div > div {
+    background-color: #0066cc;
+} 
