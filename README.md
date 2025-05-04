@@ -21,10 +21,10 @@ A powerful PDF Question-Answering application built with Streamlit and LangChain
 
 ---
 
-## Streamlit App Preview - Search Page
+## Streamlit App Preview - Chat Interface Page
 
 <p align="center">
-  <img src="assets/app-preview-search-page.jpg" width="70%">
+  <img src="assets/app-preview-chat-interface-page.jpg" width="70%">
 </p>
 
 ---
