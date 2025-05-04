@@ -1,6 +1,8 @@
-# PDF Q&A Application with LangChain
+# AI-Powered PDF Q&A App with LangChain and Streamlit
 
-A powerful PDF Question-Answering application built with Streamlit and LangChain that allows users to upload PDF documents and ask questions about their content. The application uses advanced language models and vector embeddings to provide accurate and contextual answers.
+AI-Powered PDF Q&A App is a modular and production-ready Streamlit application that enables users to upload PDF documents and ask natural language questions about their content. The system intelligently routes queries using a LangChain agent that can either perform retrieval-augmented question answering or count exact term occurrences, depending on the user's intent. Built on top of LangChain, FAISS, and multiple LLM backends (OpenAI, Ollama), this app supports streaming responses, source attribution with page numbers, and a user-friendly chat interface.
+
+The **project was initiated by first designing a high-level system prompt for ChatGPT to outline the architecture and requirements. A follow-up Cursor.ai prompt was generated to automate the code scaffolding and establish a clean, extensible project structure.** This workflow demonstrates how to combine LLM-based planning with AI-assisted coding tools to accelerate development of robust, domain-specific applications.
 
 ## Features
 
