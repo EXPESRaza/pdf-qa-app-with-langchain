@@ -11,6 +11,24 @@ A powerful PDF Question-Answering application built with Streamlit and LangChain
 - 🎨 Modern and User-Friendly Interface
 - 🔄 Real-time Processing and Response
 
+---
+
+## Streamlit App Preview - Main Page
+
+<p align="center">
+  <img src="assets/app-preview-main-page.jpg" width="70%">
+</p>
+
+---
+
+## Streamlit App Preview - Search Page
+
+<p align="center">
+  <img src="assets/app-preview-search-page.jpg" width="70%">
+</p>
+
+---
+
 ## Prerequisites
 
 - Python 3.8 or higher
