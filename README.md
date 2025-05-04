@@ -1,5 +1,5 @@
-# Ask Your PDFs Anything — Powered by LangChain & Streamlit
-## Bootstrapped Using ChatGPT and Cursor.AI to Code the App with Smart Tool Routing
+# Ask Your PDFs Anything — Powered by LangChain & Streamlit with Smart Tool Routing
+## Bootstrapped Using ChatGPT and Cursor.AI to Code the App
 
 AI-Powered PDF Q&A App is a modular and production-ready Streamlit application that enables users to upload PDF documents and ask natural language questions about their content. The system intelligently routes queries using a LangChain agent that can either perform retrieval-augmented question answering or count exact term occurrences, depending on the user's intent. Built on top of LangChain, FAISS, and multiple LLM backends (OpenAI, Ollama), this app supports streaming responses, source attribution with page numbers, and a user-friendly chat interface.
 
